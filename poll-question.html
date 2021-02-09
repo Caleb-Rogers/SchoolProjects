@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="CMPT221L Design a poll question Web application">
+  <meta name="Keywords" content="HTML">
+  <meta name="Author" content="Caleb Rogers">
+</head>
+
+<body>
+<h2>Poll Question</h2>
+<p><i>Do you enjoy pineapple on pizza?</i></p>
+
+<form action="http://127.0.0.1:5000/poll-question" method='POST'>
+  <input type="radio" id="yes" name="preference" value="yes">
+  <label for="yes">Love it!</label><br>
+  
+  <input type="radio" id="no" name="preference" value="no">
+  <label for="no">Hate it!<br>
+  
+  <input type="radio" id="other" name="preference" value="other">
+  <label for="other">Take it or leave it</label><br>
+  
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
