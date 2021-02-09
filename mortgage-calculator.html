@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Mortgage Calculator</h2>
+<form action="http://127.0.0.1:5000/calculate-mortgage" method="get">
+  <label for="homevalue">Home Value:</label><br>
+  <input type="text" id="value" name="homevalue" value=""><br>
+  <label for="downpayment">Down Payment:</label><br>
+  <input type="text" id="payment" name="downpayment" value=""><br>
+  <label for="lengthloan">Length of Loan:</label><br>
+  <input type="text" id="length" name="lengthloan" value=""><br>
+  <label for="interestrate">Interest Rate:</label><br>
+  <input type="text" id="rate" name="interestrate" value=""><br>
+  <input type="submit" value="Calculate">
+  <p>If you click the "Calculate" button, the form-data will be sent to a page called "http://127.0.0.1:5000/calculate-mortgage".</p>
+</form>
+
+</body>
+</html>
